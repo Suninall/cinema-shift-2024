@@ -84,3 +84,80 @@ body{
     line-height: 24px;
     color: rgba(52, 64, 81, 1);
 }
+.timetable{
+    padding-top: 40px;
+    padding-left: 240px;
+    margin: 0px;
+    width: 928px;
+    height: 888px;
+}
+.timetable>h2{
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 32px;
+    size: 24px;
+    padding-bottom: 16px;
+}
+.timetable1{
+    width: 699px;
+    height: 356px;
+    margin: 0;
+}
+.week{
+    width: 699px;
+    height: 44px;
+    background-color: rgb(235, 235, 235,1);
+    border-radius: 14px;
+}
+.day{
+    border: 0;
+    display: inline-block;
+    color: rgb(194, 190, 190);
+    padding: 10px,16px,10px;
+    width: 95px;
+    height: 40px;
+    border-radius: 14px;
+    font-family: inter;
+
+}
+.day:hover{
+    background-color: rgba(255, 255, 255, 1) ;
+    color:rgb(10, 10, 10) ;
+    cursor: pointer;
+}
+.time{
+    width: 377px;
+    height: 288px;
+    padding-top: 24px;
+    margin: 0;
+}
+.room1{
+    width: 377px;
+    height: 72px;
+    padding-bottom: 16px;
+}
+.room{
+    font-family: Inter;
+    font-weight: 400px;
+    size: 12px;
+    line-height: 16px;
+    color: rgba(52, 64, 81, 1);
+    padding-bottom: 12px;
+}
+.clock{
+    background-color:rgba(255, 255, 255, 1) ;
+    border: 1px;
+    border-color: rgb(136, 139, 146);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px 10px 16px;
+    width: 67px;
+    height: 40px;
+    border-radius: 14px;
+    font-family: Inter;   
+}
+.clock:hover{
+    background-color: rgba(151, 161, 175, 1) ;
+    color:rgb(10, 10, 10) ;
+    cursor: pointer;
+}
