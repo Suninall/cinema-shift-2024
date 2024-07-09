@@ -205,3 +205,32 @@ body{
     color: #344051;
     padding-bottom: 24px;
 }
+.row>p{
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #344051;
+    text-align: center;
+}
+.seat{
+    background-color: #712D9C;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin: 12px 13px;
+  
+}
+.seat:hover{
+    background-color: #712D9C;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.seat.sold{
+    background-color: #CED2DA;
+}
+.plases>.row{
+    display: flex;
+}
